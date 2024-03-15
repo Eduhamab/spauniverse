@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+
+    
+}
+
+
+body{
+
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("/src/home.png");
+
+    background-repeat: no-repeat;
+
+    color: #E1E1E6;
+
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+
+
+}
+
+body h1{
+    font-size: 48px;
+}
+
+
+#home-page{
+    margin-top: -90px;
+    height: 100vh;
+    width: 100vw;
+
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    gap: 24px;
+    
+}
+
+button{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+
+    cursor: pointer;
+    font-family: 14px;
+    padding: 12px 32px;
+
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        
+      }
+
+button:hover{
+    background-color: white;
+    color: rgb(16, 84, 173);
+    font-weight: bold;
+    transition: .4s;
+}      
+      
+nav{
+    margin-left: 72px;
+    margin-top: 40px;
+
+    display: flex;
+    align-items: center;
+    gap:32px;
+}
+
+nav a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration: none;
+    color: #C4C4CC;
+}
+
+nav a:focus{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+nav a:hover{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+
+

@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+
+}
+
+
+body{
+
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+    background-image: url("/src/exploraçao.png");
+    background-repeat: no-repeat;
+
+    color: #E1E1E6;
+
+    font-family: "Roboto", sans-serif;
+}
+
+body h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+#explore-page{
+    margin-top: 120px;
+    margin-left: 100px;
+    max-width: 650px;
+}
+
+body p{
+    margin-top: 16px;
+    font-size: 18px;
+    line-height: 160%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+
+
+      
+    
+    
+
+
